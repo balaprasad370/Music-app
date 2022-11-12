@@ -3,14 +3,14 @@
     "img": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80ic/photo.png",
     "movie": "vakkeel ssab",
     "singer": "sid sriaran",
-    "song": "songs/song1.mp3",
+    "song": "https://docs.google.com/uc?export=download&id=1vZdo8_Q-zjZKXoMs_EPbkobGuxXC_Kex",
     "title": "vakeelb sab"
 }, {
     "id": 2,
     "img": "pic/brownmunde.jpg",
     "movie": "AP Dhillon",
     "singer": "AP Dhillon",
-    "song": "songs/Brown-Munde.mp3",
+    "song": "songs/drop-it.mp3",
     "title": "Brown Munde"
 }, {
     "id": 3,
