@@ -1,51 +1,48 @@
-<!-- <script>
-    axios.get('./songs.json').then(
-      res => {
-        //!search ? setData(res.data) : setData(res.data.filter(songs => songs.title===search))
-         songs = res.data;
-        console.log(songs);
-        console.log(resdata);
-      }
-</script> -->
-<script>
+<!DOCTYPE html>
+<html lang="en">
 
-   // console.log(<%= songs%>)
-    var songs = <%-songs%>;
-   /* songs = JSON.stringify(songs);
-    console.log(JSON.parse(songs));
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 
-    songs = JSON.parse(songs);
-*/
-    
-<%= JSON.stringify(songs) %>
-//<%= JSON.parse(songs) %>
-</script>
+<body>
 
 
-                    <div>
-                    <div className = "row" >
-                        <p><%= songs[0].id %>
+    <div>
+        <div class="row">
+            <p>
+                <!-- <%- songs[0].title %> -->
+            </p>
+            <div class="col-md-3" key={song.id}>
+                <div class="card" style=>
+                    <% songs.forEach(function(data,index){  %>
+                        <p>
+                            <%- data.title %>
                         </p>
-                            
-                                
-                                    <div className = "col-md-3" key={song.id}>
-                                    <div className="card" style={{"width": "17.5rem"}} >
-                                    <img src = className="card-img-top" alt={song.title} />
-                                    <div className="card-body">
-                                        <h5 className="card-title">{song.title} - {song.movie}</h5>
-                                        
-                                        <img="card-img-top" alt={song.title} />
-                                            <div className="card-body">
-                                                <h5 className="card-title">{song.title} - {song.movie 
-                                        
-                                        
-                                            <audio controls src={song.song} />
-                                    </div>
-                                    </div>
-                                    </div>
-                                    
-                        
-                                
+
+
+                        <img src=" <%- data.img %>" class="card-img-top" alt={song.title} />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%-data.title%> -
+                                    <%-data.movie%>
+                            </h5>
+
+
+                            <audio controls src="<%-data.song %>" />
                         </div>
                 </div>
-            
+
+                <% }) %>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
