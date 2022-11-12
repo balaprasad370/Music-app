@@ -7,20 +7,29 @@
     td {
         text-align: center;
     }*/
-body{
-	text-align: center !important;
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-HD-Background-.jpg");
+
+body {
+    text-align: center !important;
+    /* background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-HD-Background-.jpg"); */
     color: #fff
 }
-p{
-	margin-top: 20px;
-	font-size: 30px;
+
+p {
+    margin-top: 20px;
+    font-size: 30px;
 }
-input{
-	text-align: center;
+
+input {
+    text-align: center;
 }
-.mssg{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border-radius: 5px;
+
+.mssg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
 }
